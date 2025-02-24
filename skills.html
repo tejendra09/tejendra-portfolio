@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Skills - Tejendra Chowdary</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Tejendra <span>Chowdary</span> Chaparala
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="certificates.html">Certificates</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="certificates.html">Certificates</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="skills-section">
+        <h1 class="skills-title" data-aos="fade-up" data-aos-duration="1500">My Skills</h1>
+        <div class="skills-container">
+            <div class="skill" data-aos="fade-right" data-aos-duration="1200">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Experienced in building scalable applications, automation, and data engineering.</p>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="1200">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL & Databases</h3>
+                <p>Proficient in MySQL, PostgreSQL, and Databricks for data management and optimization.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1200">
+                <i class="fa-brands fa-aws"></i>
+                <h3>Cloud Computing</h3>
+                <p>Experience with Google Cloud, AWS, and Databricks for data processing.</p>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="1200">
+                <i class="fa-solid fa-code"></i>
+                <h3>Data Engineering</h3>
+                <p>Expertise in data pipelines, ETL processes, and incremental data processing.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1200">
+                <i class="fa-solid fa-shield-alt"></i>
+                <h3>Cybersecurity</h3>
+                <p>Knowledge in ethical hacking, RedHat Linux, and penetration testing.</p>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="1200">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <p>Understanding of Java for object-oriented programming and backend development.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

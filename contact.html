@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Contact - Tejendra Chowdary</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Tejendra <span>Chowdary</span> Chaparala
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="certificates.html">Certificates</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="certificates.html">Certificates</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <h1 class="contact-title" data-aos="fade-up" data-aos-duration="1500">Get In Touch</h1>
+        
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <form class="contact-form" action="https://formsubmit.co/chaparala0@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>            
+            <!-- Contact Info & Social Links -->
+            <div class="contact-info" data-aos="fade-left" data-aos-duration="1200">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:chaparala0@gmail.com">chaparala0@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> +91 7671064102</p>
+                
+                <div class="contact-social">
+                    <a href="https://github.com/tejendra09" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mortal_ally_tej/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tejendrachowdarychaparala/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/TejendraChowdary/" target="_blank"><i class="fa-solid fa-code"></i></a>
+                    <a href="https://www.hackerrank.com/profile/tejendradevil" target="_blank"><i class="fa-solid fa-laptop-code"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
